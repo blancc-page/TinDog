@@ -1,0 +1,223 @@
+/* html-selectors */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #fff;
+}
+
+i:hover {
+  color: #ff4c68;
+}
+
+button {
+  text-align: left;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* section-selectors */
+
+#title {
+  color: #fff;
+  height: 37rem;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+  padding: 6rem;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+}
+#cta {
+  font-weight: 900;
+  padding-bottom: 25px;
+}
+
+#footer {
+  padding-bottom: 10px;
+}
+
+/* theme */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: black;
+}
+
+.colored-section#testimonials {
+  background-color: #ef8172;
+}
+
+.colored-section#press {
+  background-color: #ef8172;
+}
+
+/* title-section */
+
+.desc-div {
+  text-align: left;
+  padding: 100px;
+  position: relative;
+  z-index: 0;
+}
+
+/* nav bar */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5rem;
+  padding: 2%;
+  margin-left: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 200;
+  margin: 0 2.5rem;
+}
+
+/* i-phone */
+
+.img-div {
+  padding: 0;
+}
+
+.ip {
+  position: relative;
+  width: 45%;
+  transform: rotate(25deg);
+  margin-top: 0;
+}
+
+/* feature-section */
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-heading {
+  font-weight: 900;
+}
+
+.ft-paragraph {
+  padding: 2% 20%;
+}
+
+/* testimonial-section */
+
+.testimonial-location {
+  margin-left: 0.5rem;
+}
+
+.testimonial-text {
+  margin: auto;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  width: 85%;
+}
+
+.testimonial-image {
+  margin-top: 2rem;
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* press-section */
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* carousel */
+
+.carousel-item {
+  padding: 6rem;
+}
+
+/* pricing-section */
+
+.package {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.price-title {
+  font-weight: 900;
+}
+
+.price {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-desc {
+  margin-bottom: 55.5px;
+}
+
+/* call-to-action */
+
+.cta-desc {
+  margin: auto;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding: 4rem 0 2rem;
+  width: 70%;
+}
+
+/* footer-section */
+
+.ic {
+  font-size: 1.2rem;
+  color: black;
+  padding: 2rem 0 2rem 0;
+  margin: 0.5rem;
+}
+
+/* media-query */
+
+@media (max-width: 990px) {
+  #title {
+    height: 72rem;
+  }
+
+  .ip {
+    position: static;
+    transform: rotate(0);
+  }
+  .desc-div {
+    text-align: center;
+  }
+}
